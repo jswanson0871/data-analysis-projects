@@ -7,7 +7,9 @@ def reverse_characters(list_test1):
 # b) Within the function, use the 'list' function to split a string into a list of individual characters
 def reverse_characters(list_test1):
     char_list = list(list_test1)
-    return list_test1[::-1]
+    return list_test1[::-1] 
+
+    
 
 # c) 'reverse' your new list.
 def reverse_characters(list_test1):

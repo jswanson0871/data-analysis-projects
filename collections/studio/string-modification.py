@@ -25,4 +25,4 @@ if n > len(s):
     print(f'Error: "{n}" exceeds the number of characters in the word "{s}". Defaulting to 3.')
     n = 3
 modified = s[n:] + s[:n]
-print (f"{modified}")
+print (f"{modified}") 
