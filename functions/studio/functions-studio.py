@@ -1,17 +1,28 @@
 # We want to COMPLETELY reverse a list by flipping the order of the entries AND flipping the order of characters in each element.
 
 # a) Define a 'reverse_characters' function. Give it one parameter, which will be the string to reverse.
-def reverse_characters(s):
+def reverse_characters(list_test1):
+    return list_test1[::-1]
  
 # b) Within the function, use the 'list' function to split a string into a list of individual characters
-list_test1=list(s)
+def reverse_characters(list_test1):
+    char_list = list(list_test1)
+    return list_test1[::-1]
+
 # c) 'reverse' your new list.
-list_test1.reverse()
-print(reverse_list)
+def reverse_characters(list_test1):
+    char_list = list(list_test1)
+    char_list[::-1]
+    return list_test1
 # d) Use 'join' to create the reversed string and return that string from the function.
-def reverse_characters(lst):
-    reversed_string = ', '.join([s[::-1] for s in lst])
+def reverse_characters(list_text):
+    char_list = list(list_text)
+    char_list.reverse()
+    reversed_string = "".join(char_list)
     return reversed_string
+
+print(reverse_characters(list_test1))
+
 # e) Create a variable of type string to test your new function. # f) Use 'print(reverse_characters(my_variable_name))'; to call the function and verify that it correctly reverses the characters in the string.
  list_test1 = ['apple', 'potato', 'Capitalized Words']
 
@@ -49,17 +60,25 @@ def reverse_characters(i):
 
 # 3) Create a new function with one parameter, which is the list we want to change. The function should:
 # a) Define and initialize an empty list.
-list_test4 = []
 # b) Loop through the old list.
-for old_list in list_test4
-print(list_test4)
 # c) For each element in the old list, call reverse_characters to flip the characters or digits.
 # d) Add the reversed string (or number) to the list defined in part ‘a’.
 # e) Return the final, reversed list.
 # f) Be sure to print the results from each test case in order to verify your code.
-
+def new_function(old_list):
+    new_list = []
+    for element in old_list:
+        reversed_element = reverse_characters(element)
+        new_list.append(reversed_element)
+    return new_list
+print(new_function(list_test3))
 
 
 list_test1 = ['apple', 'potato', 'Capitalized Words']
 list_test2 = [123, 8897, 42, 1168, 8675309]
 list_test3 = ['hello', 'world', 123, 'orange']
+
+
+print(reverse_list_elements(list_test1))
+print(reverse_list_elements(list_test2))
+print(reverse_list_elements(list_test3))  
