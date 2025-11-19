@@ -2,28 +2,11 @@
 
 # a) Define a 'reverse_characters' function. Give it one parameter, which will be the string to reverse.
 def reverse_characters(s):
-    """
-    Reverses the characters in a string.
-    
-    Parameters:
-    s (str): The string to reverse.
-    
-    Returns:
-    str: The reversed string.
-    """
-    return s[::-1]
+ 
 # b) Within the function, use the 'list' function to split a string into a list of individual characters
-    def reverse_characters(s):
-    split = list(s)
-    return split
+list_test1=list(s)
 # c) 'reverse' your new list.
-    list_test1 = ['apple', 'potato', 'Capitalized Words']
-
-def reverse_characters(s):
-    return s[::-1]
-
-reverse_list = reverse_characters(list_test1)
-
+list_test1.reverse()
 print(reverse_list)
 # d) Use 'join' to create the reversed string and return that string from the function.
 def reverse_characters(lst):
